@@ -1,0 +1,22 @@
+/* CSS Document */
+
+#footer01 { 
+	background-color:  rgba(13, 45, 108, 0.9);
+	box-shadow: 0px -2px 15px #333; 
+	position: relative; 
+	color: #fff;
+	padding-top: 20px;
+}
+
+.isapp {
+	font-size: 30px;
+	color: #00ff00;
+}
+
+.contact { text-align: left; }
+.contact p { font-size: 0.8em; }
+.contact2 { text-align: left; font-size: 0.8em; }
+.hfooter { font-weight: bolder; margin-top: 2em; }
+h4 { margin-top: 1.5em; margin-bottom: 0.5em; }
+
+.separatorfooter { height: 5vh; }

@@ -1,0 +1,116 @@
+/* CSS Document */
+
+.topribbon {
+	height: 4vh;
+	background-color: #0d2d6c;
+	border-bottom: 6px solid #F8C83F;
+/*
+	background: url(../../img/general/bgblue.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+*/
+}
+.sosmed { color: #fff; font-size: 1.5vh; }
+.sosmed .isosmed { margin-right: 20px; }
+.sosmed a { text-decoration: none; color: #fff; }
+
+@media screen and (max-aspect-ratio: 13/9) /* portrait */ {
+	.sosmed .isosmed { margin-right: 10px; }
+}
+
+.login { 
+	position: absolute; 
+	width: 350px;  
+	top: 5vh;
+	z-index: 100;
+	font-size: 0.8em;
+	display: none;
+}
+fieldset { border: none; }
+.arrow-up { 
+	width: 0; height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-bottom: 15px solid #ECF0F1;
+	right: 10%;
+	position: absolute;
+	top: -10px;
+}
+.formholder {
+	background: #ecf0f1;
+	width: 350px;
+	border-radius: 5px;
+	padding-top: 5px;
+}
+.formholder input[type="text"], .formholder input[type="password"] {
+	padding: 7px 5px;
+	margin: 10px 0;
+	width: 100%;
+	display: block;
+/*			font-size: 18px;*/
+	border-radius: 5px;
+	border: none;
+	-webkit-transition: 0.3s linear;
+	-moz-transition: 0.3s linear;
+	-o-transition: 0.3s linear;
+	transition: 0.3s linear;
+}
+.formholder input[type="text"]:focus, .formholder input[type="password"]:focus {
+	  outline: none;
+	  box-shadow: 0 0 1px 1px #FF5E5B;
+}
+.formholder input[type="submit"] {
+	background: #FF5E5B;
+	padding: 10px;
+	display: block;
+	width: 100%;
+	border: none;
+	color: #fff;
+	border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+	background: #FF5E5B;
+}
+.randompad {
+	padding: 10px;
+}
+
+#v2_header2 { 
+	background-color: #0d2d6c; 
+	box-shadow: 0px 2px 15px #666; position: relative; 
+}
+
+ul:not(.nostyle) {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0d2d6c;
+}
+
+li:not(.nostyle) {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+li:not(.nostyle):last-child {
+	border-right: none;
+}
+
+li:not(.nostyle) a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+li:not(.nostyle) a:hover {
+	background-color: #556c98;
+}
+
+.active {
+	background-color: #FFD72A;
+	color: #271F30 !important;
+}
